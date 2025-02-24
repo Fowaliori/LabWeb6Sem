@@ -1,0 +1,78 @@
+header{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+body{
+    margin: 0 auto;
+    background-color: #f1c474;
+    width: 100%;
+}
+footer{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background-color: #f4f24c;
+}
+.gallery {
+    border: 5px solid darkslategray;
+    padding: 10px;
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.gallery:hover {
+    transform: scale(1.05);
+}
+figure{
+    margin: 10px;
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+main{
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    border: 5px solid #757473;
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    width: 300px;
+    height: 200px;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff6b6b, #f7d94c);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.admirals{
+    color: seagreen;
+    text-shadow: 2px 2px 4px skyblue;
+    transition: color 0.3s ease;
+}
+
+.admirals:hover{
+    color: darkmagenta;
+}

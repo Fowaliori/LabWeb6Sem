@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Piece</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../Photos/One.jpg" alt="One Piece" style="width: 100%; height: 100%;">
+    </header>
+    <main>
+        <a href="#First">Первый раздел<br/></a>
+        <a href="#Second">Второй раздел<br/></a>
+        <!-- Тело сайта -->
+        <time datetime="2025-01-17"> 17 января 2025 </time>
+        <h2 id="First"> Персонажи Ван Пис </h2>
+        <p><mark> Гарп </mark></p>
+        <p>
+            Гарп<br/>
+            Гарп<br/>
+            Гарп<br/>
+        </p>
+        <span style="color: red;">Это строчный элемент <span>.</span></span>
+        <span style="color: blue;">А это еще один строчный элемент.</span>
+        <div style="background-color: lightblue; padding: 10px;">
+            Это блочный элемент
+        </div>
+        <div style="background-color: lightgreen; padding: 10px;">
+            Еще один блочный элемент.
+        </div>
+        <link href="https://www.youtube.com/watch?v=3xpQepnBQfk" rel="stylesheet" />
+        <div class="gallery">
+            <figure>
+                <img src="../Photos/Luffy.jpg" alt="Monkey D. Luffy">
+                <figcaption>Монки Д. Луффи</figcaption>
+            </figure>
+            <figure>
+                <img src="../Photos/Zoro.jpg" alt="Roronoa Zoro">
+                <figcaption>Ророноа Зоро</figcaption>
+            </figure>
+        </div>
+        <details>
+            <summary> Пираты Чёрной бороды </summary>
+            <p> Маршалл Д. Тич </p>
+            <p> Лаффит </p>
+            <pre>
+                ░░░░░░▄█▀█▄░░░░░░░░░░░░░░░
+                ░▄█▀▀▀▀░░░░▀█▄▄▄▄▄▄▄░░░░░░
+                █▀░░░░░░░░░░░░░░░░░▀█░░░░░
+                ▀▄░▄░░░░░░░░░░░░░░░▄█░░░░░
+                ░█████▄▄▄▄▄██▄▄▄█▀▀█░░░░░░
+                ░█▀█░░░░▀░░░░░▀░░░░█▀▀▀▀▀█
+                ░█░███▄▄▄▄░░░▄▄▄▄▄██▀▀██░█
+                ░█░███░████▀████░███░░█░░█
+                ░█▄███░████░████░███░░█░█▀
+                ░░░███░████░████░███░░█░█░
+                ░░░███░████░████░███▄▄█░█░
+                ░░░███░████░████░███░░░▄█░
+                ░░░███░████░████░███▀▀▀▀░░
+                ░░▄███▄████░████▄███▄░░░░░
+                ░░███▀███████████▀███░░░░░
+                ░░░░▀▀▀██▄▄▄▄▄██▀▀▀░░░░░░░
+            </pre>
+        </details>
+        <hr>
+        <p class="admirals"> Адмиралы морского дозора </p>
+        <ol start="0">
+            <li> Сакадзуки </li>
+            <li> Кудзан </li>
+            <li> Борсалино </li>
+        </ol>
+        <table id="Second">
+            <tr>
+                <td colspan="3">Объединенная ячейка по горизонтали</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Объединенная ячейка по вертикали</td>
+                <td>Ячейка 1</td>
+                <td>Ячейка 2</td>
+            </tr>
+            <tr>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>
+        </table>
+        <br/>
+        <p>
+            <label><input type="checkbox" value="one"> HTML </label><br>
+            <label><input type="checkbox" value="two"> CSS </label><br>
+            <label><input type="checkbox" value="three"> JavaScript </label>
+        </p>
+        <div>
+            <label> 0 </label>
+            <input id="myRange" type="range" min="0" max="10" value="5">
+            <label> 10 </label>
+        </div>
+        <button id="returnButton"> Отправить </button>
+        <button id="resetButton"> Сбросить </button>
+        <script>
+            const rangeInput = document.getElementById('myRange');
+            const resetButton = document.getElementById('resetButton');
+            resetButton.addEventListener('click', function() {
+                rangeInput.value = 5;
+            });
+        </script>
+        <div class="circle"> Круг </div>
+
+    </main>
+    <footer>
+        <h3>
+            Текст
+        </h3>
+        <nav>
+            <ul>
+                <li><a href="ReactionTest.html"> Тест на реакцию </a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
