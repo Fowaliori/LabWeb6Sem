@@ -66,8 +66,8 @@ $(document).ready(function() {
         testStarted = false;
         $('#endButton').hide();
 
-        const successRate = (score / totalImages) * 100; // Процент успешных кликов
-        $('#result').text(`Ваш результат: ${successRate.toFixed(2)}% удачных щелчков. 
-        Всего изображений: ${totalImages} удачных кликов: ${score}`);
+        const successRate = (score / totalImages) * 100;
+        $('#result').text(`Ваш результат: ${successRate.toFixed(2)}% удачных кликов. 
+        Всего изображений: ${totalImages} Удачных кликов: ${score}`);
     }
 });
